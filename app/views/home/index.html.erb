@@ -4,8 +4,12 @@
       <div class="col-md-12 entry centered">
         <h1>Beautiful &amp; bright future is not far away</h1>
         <h2>Believe me, you can be better.</h2>
-        <a class="btn btn-sign btn-success"><i class="fa fa-sign-in fa-lg"></i> Try It Now</a>
-        <a class="btn btn-more btn-info"><i class="fa fa-info fa-lg"></i> Learn More</a>
+        <%= link_to new_user_session_path, class: 'btn btn-sign btn-success' do %>
+        <i class="fa fa-sign-in fa-lg"></i> Try It Now
+        <% end %>
+        <%= link_to root_path, class: 'btn btn-more btn-info' do %>
+        <i class="fa fa-info fa-lg"></i> Learn More
+        <% end %>
       </div>
     </div>
   </div>
