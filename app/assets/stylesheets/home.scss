@@ -30,3 +30,11 @@ header {
   font-weight: bold;
   font-size: 0.75em;
 }
+
+.login-vline {
+  position: absolute;
+  height: 80%;
+  border-left: 1px solid #EEE;
+  left: 50%;
+  top: 10px;
+}
